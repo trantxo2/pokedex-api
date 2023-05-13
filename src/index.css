@@ -1,5 +1,6 @@
 :root {
   font-family: "Poppins", sans-serif;
+  --size-xxtiny: 2px;
   --size-xtiny: 4px;
   --size-tiny: 8px;
   --size-small: 12px;
@@ -9,6 +10,10 @@
   --size-large: 48px;
   --size-nameSize: 24px;
   --size-numberSize: 16px;
-  --color-cardInfoColor: white;
-  --color-cardDataBackground: white;
+  --rock-color: #b69e31;
+  --ghost-color: #70559b;
+  --steel-color: #b7b9d0;
+  --water-color: #6493eb;
+  --grass-color: #74cb48;
+  --poison-color: #a43e9e;
 }

@@ -17,19 +17,82 @@
 }
 
 h1 {
-  color: var(--color-cardInfoColor);
+  color: white;
   font-weight: bold;
   font-size: var(--size-nameSize);
 }
 h2 {
   font-weight: bold;
-  color: var(--color-cardInfoColor);
+  color: white;
   font-size: var(--size-numberSize);
+}
+h5 {
+  color: grey;
 }
 
 .cardData {
   border-radius: var(--size-small);
-  background-color: var(--color-cardDataBackground);
+  background-color: white;
   margin: var(--size-xtiny);
-  height: 240px;
+}
+
+.types {
+  display: flex;
+  justify-content: center;
+  gap: var(--size-mini);
+  margin-top: var(--size-mini);
+  margin-bottom: var(--size-mini);
+}
+
+.type {
+  color: white;
+  font-weight: bold;
+  border-radius: var(--size-small);
+  padding: var(--size-tiny);
+  padding-top: var(--size-xxtiny);
+  padding-bottom: var(--size-xxtiny);
+}
+
+.grassType {
+  background-color: var(--grass-color);
+}
+.poisonType {
+  background-color: var(--poison-color);
+}
+.about {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  color: #74cb48;
+  margin-top: var(--size-mini);
+  margin-bottom: var(--size-mini);
+}
+.specs {
+  display: flex;
+  flex-direction: row;
+  gap: var(--size-large);
+  justify-content: center;
+}
+
+.weight {
+  display: flex;
+  flex-direction: column;
+  gap: var(--size-tiny);
+  border-right: 2px;
+  border-color: #a43e9e;
+}
+
+.height {
+  display: flex;
+  flex-direction: column;
+  gap: var(--size-tiny);
+}
+.divider {
+  background-color: lightgrey;
+  width: 1px;
+}
+
+.description {
+  font-size: var(--size-small);
+  padding: var(--size-base);
 }
