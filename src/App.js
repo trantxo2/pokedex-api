@@ -23,7 +23,12 @@ function App() {
               </div>
               <div className="divider"></div>
               <div className="height">
-                <h4>0,7 M</h4>
+                <img
+                  className="specs__image"
+                  src="images/Vector.svg"
+                  alt=""
+                ></img>
+                <h4>0,7 m</h4>
                 <h5>Height</h5>
               </div>
             </div>

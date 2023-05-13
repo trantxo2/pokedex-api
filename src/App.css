@@ -74,12 +74,15 @@ h5 {
   justify-content: center;
 }
 
+.specs__image {
+  height: var(--size-mini);
+  width: var(--size-mini);
+}
+
 .weight {
   display: flex;
   flex-direction: column;
   gap: var(--size-tiny);
-  border-right: 2px;
-  border-color: #a43e9e;
 }
 
 .height {
