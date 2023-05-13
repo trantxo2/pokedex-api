@@ -1,5 +1,8 @@
 .card {
-  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: var(--size-small);
   background-color: #74cb48;
   width: 300px;
   height: 400px;
@@ -8,12 +11,25 @@
 .cardInfo {
   display: flex;
   justify-content: space-between;
-  padding: var(--size-m);
+  align-items: center;
+  padding: var(--size-base);
+  padding-bottom: 0;
 }
 
 h1 {
-  color: white;
+  color: var(--color-cardInfoColor);
+  font-weight: bold;
+  font-size: var(--size-nameSize);
 }
 h2 {
-  color: white;
+  font-weight: bold;
+  color: var(--color-cardInfoColor);
+  font-size: var(--size-numberSize);
+}
+
+.cardData {
+  border-radius: var(--size-small);
+  background-color: var(--color-cardDataBackground);
+  margin: var(--size-xtiny);
+  height: 240px;
 }
